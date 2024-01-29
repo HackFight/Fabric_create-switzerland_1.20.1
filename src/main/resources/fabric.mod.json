@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "create-switzerland",
+  "version": "${version}",
+  "name": "Create: Switzerland",
+  "description": "A Create addon that adds Swiss stuff.",
+  "authors": [
+    "HackFight, PadjokeJ"
+  ],
+  "contact": {
+    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+  },
+  "license": "CC0",
+  "icon": "assets/createswitzerland/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.hackfight.createswitzerland.CreateSwitzerland"
+    ],
+    "client": [
+      "net.hackfight.createswitzerland.CreateSwitzerlandClient"
+    ],
+    "fabric-datagen": [
+      "net.hackfight.createswitzerland.CreateSwitzerlandDataGenerator"
+    ]
+  },
+  "mixins": [
+    "create-switzerland.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

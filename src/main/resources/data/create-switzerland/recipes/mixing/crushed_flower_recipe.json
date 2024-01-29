@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "minecraft:flowers"
+    }
+  ],
+  "results": [
+    {
+      "item": "create-switzerland:crushed_flower"
+    }
+  ]
+}

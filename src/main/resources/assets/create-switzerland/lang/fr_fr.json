@@ -1,0 +1,21 @@
+{
+  "item.create-switzerland.swiss_flag_icon": "Icone du Drapeau Suisse",
+  "item.create-switzerland.crushed_cocoa_beans": "Eclats de Cacao",
+  "item.create-switzerland.cocoa_powder": "Poudre de Cacao",
+  "item.create-switzerland.cocoa_butter": "Beurre de Cacao",
+  "item.create-switzerland.crushed_flower": "Fleurs broyées",
+  "item.create.bar_of_chocolate": "Barre de Chocolat au Lait",
+  "item.create-switzerland.bar_of_dark_chocolate": "Barre de Chocolat Noir",
+  "item.create-switzerland.bar_of_white_chocolate": "Barre de Chocolat Blanc",
+
+  "item.create-switzerland.dark_chocolate_bucket": "Seau de Chocolat Noir",
+
+  "block.create.chocolate": "Chocolat au Lait",
+  "block.create-switzerland.dark_chocolate": "Chocolat Noir",
+
+  "block.create-switzerland.milk_chocolate_block": "Bloc de Chocolat au Lait",
+  "block.create-switzerland.dark_chocolate_block": "Bloc de Chocolat Noir",
+  "block.create-switzerland.white_chocolate_block": "Bloc de Chocolat Blanc",
+
+  "itemgroup.swiss_confissery": "Confisserie Suisse"
+}

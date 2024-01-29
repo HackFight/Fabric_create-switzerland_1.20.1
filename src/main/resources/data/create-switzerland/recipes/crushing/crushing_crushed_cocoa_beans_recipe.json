@@ -1,0 +1,17 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create-switzerland:crushed_cocoa_beans"
+    }
+  ],
+  "results": [
+    {
+      "item": "create-switzerland:cocoa_powder"
+    },
+    {
+      "item": "create-switzerland:cocoa_butter"
+    }
+  ],
+  "processingTime": 150
+}
