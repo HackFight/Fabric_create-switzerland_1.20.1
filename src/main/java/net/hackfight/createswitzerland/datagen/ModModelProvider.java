@@ -32,5 +32,7 @@ public class ModModelProvider extends FabricModelProvider {
 		itemModelGenerator.register(ModItems.BAR_OF_WHITE_CHOCOLATE, Models.GENERATED);
 		itemModelGenerator.register(ModFluids.DARK_CHOCOLATE_BUCKET, Models.GENERATED);
 		itemModelGenerator.register(ModFluids.WHITE_CHOCOLATE_BUCKET, Models.GENERATED);
+		itemModelGenerator.register(ModItems.DARK_CHOCOLATE_GLAZED_BERRIES, Models.GENERATED);
+		itemModelGenerator.register(ModItems.WHITE_CHOCOLATE_GLAZED_BERRIES, Models.GENERATED);
 	}
 }

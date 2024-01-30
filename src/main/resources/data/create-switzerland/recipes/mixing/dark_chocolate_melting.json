@@ -2,19 +2,13 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "create-switzerland:cocoa_powder"
-    },
-    {
-      "item": "create-switzerland:cocoa_butter"
+      "item": "create-switzerland:bar_of_dark_chocolate"
     }
   ],
   "results": [
     {
       "fluid": "create-switzerland:dark_chocolate",
-      "amount": 9000
+      "amount": 27000
     }
   ],
   "heatRequirement": "heated"

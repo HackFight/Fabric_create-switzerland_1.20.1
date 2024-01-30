@@ -18,10 +18,11 @@ public class ModItems {
     public static final Item CRUSHED_COCOA_BEANS = registerItem("crushed_cocoa_beans", new Item(new FabricItemSettings()));
     public static final Item COCOA_POWDER = registerItem("cocoa_powder", new Item(new FabricItemSettings()));
     public static final Item COCOA_BUTTER = registerItem("cocoa_butter", new Item(new FabricItemSettings()));
+	public static final Item CRUSHED_FLOWER = registerItem("crushed_flower", new Item(new FabricItemSettings()));
 	public static final Item BAR_OF_DARK_CHOCOLATE = registerItem("bar_of_dark_chocolate", new Item(new FabricItemSettings()));
 	public static final Item BAR_OF_WHITE_CHOCOLATE = registerItem("bar_of_white_chocolate", new Item(new FabricItemSettings()));
-	public static final Item CRUSHED_FLOWER = registerItem("crushed_flower", new Item(new FabricItemSettings()));
-
+	public static final Item DARK_CHOCOLATE_GLAZED_BERRIES = registerItem("dark_chocolate_glazed_berries", new Item(new FabricItemSettings().food(ModFoodComponents.DARK_CHOCOLATE_GLAZED_BERRIES)));
+	public static final Item WHITE_CHOCOLATE_GLAZED_BERRIES = registerItem("white_chocolate_glazed_berries", new Item(new FabricItemSettings().food(ModFoodComponents.WHITE_CHOCOLATE_GLAZED_BERRIES)));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries)
@@ -32,6 +33,12 @@ public class ModItems {
 		entries.add(CRUSHED_FLOWER);
     }
 
+	private static void addItemsToFoodItemGroup(FabricItemGroupEntries entries)
+	{
+		entries.add(DARK_CHOCOLATE_GLAZED_BERRIES);
+		entries.add(WHITE_CHOCOLATE_GLAZED_BERRIES);
+	}
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(CreateSwitzerland.MOD_ID, name), item);
     }
@@ -41,5 +48,6 @@ public class ModItems {
         CreateSwitzerland.LOGGER.info("Registering mod items for " + CreateSwitzerland.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToFoodItemGroup);
     }
 }

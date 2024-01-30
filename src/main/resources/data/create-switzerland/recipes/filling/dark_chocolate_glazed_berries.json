@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "fluid": "create-switzerland:dark_chocolate",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "create-switzerland:dark_chocolate_glazed_berries"
+    }
+  ]
+}

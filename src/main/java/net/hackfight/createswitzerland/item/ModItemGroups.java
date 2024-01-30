@@ -20,7 +20,7 @@ public class ModItemGroups {
     public static final ItemGroup SWISS_CONFISSERY = Registry.register(Registries.ITEM_GROUP,
             new Identifier(CreateSwitzerland.MOD_ID, "swiss_confissery"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.swiss_confissery"))
-                    .icon(() -> new ItemStack(Items.COCOA_BEANS)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.SWISS_FLAG_ICON)).entries((displayContext, entries) -> {
 
                         entries.add(Items.COCOA_BEANS);
                         entries.add(ModItems.CRUSHED_COCOA_BEANS);
@@ -29,16 +29,22 @@ public class ModItemGroups {
 						entries.add(ModItems.CRUSHED_FLOWER);
                         entries.add(Items.MILK_BUCKET);
                         entries.add(Items.SUGAR);
+
 						entries.add(AllItems.BAR_OF_CHOCOLATE);
 						entries.add(ModItems.BAR_OF_DARK_CHOCOLATE);
 						entries.add(ModItems.BAR_OF_WHITE_CHOCOLATE);
-                        entries.add(ModBlocks.MILK_CHOCOLATE_BLOCK);
-						entries.add(ModBlocks.DARK_CHOCOLATE_BLOCK);
-						entries.add(ModBlocks.WHITE_CHOCOLATE_BLOCK);
+
+						entries.add(AllItems.CHOCOLATE_BERRIES);
+						entries.add(ModItems.DARK_CHOCOLATE_GLAZED_BERRIES);
+						entries.add(ModItems.WHITE_CHOCOLATE_GLAZED_BERRIES);
+
 						entries.add(AllFluids.CHOCOLATE.get().getBucketItem());
 						entries.add(ModFluids.DARK_CHOCOLATE_BUCKET);
 						entries.add(ModFluids.WHITE_CHOCOLATE_BUCKET);
 
+                        entries.add(ModBlocks.MILK_CHOCOLATE_BLOCK);
+						entries.add(ModBlocks.DARK_CHOCOLATE_BLOCK);
+						entries.add(ModBlocks.WHITE_CHOCOLATE_BLOCK);
                     }).build());
     public static void registerItemGroups()
     {

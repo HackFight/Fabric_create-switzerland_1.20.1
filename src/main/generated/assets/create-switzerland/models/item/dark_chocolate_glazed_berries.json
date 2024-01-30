@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "create-switzerland:item/dark_chocolate_glazed_berries"
+  }
+}
