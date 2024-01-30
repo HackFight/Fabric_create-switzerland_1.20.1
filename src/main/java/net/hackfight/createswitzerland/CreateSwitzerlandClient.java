@@ -16,13 +16,23 @@ public class CreateSwitzerlandClient implements ClientModInitializer {
     public void onInitializeClient() {
 
 		FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.DARK_CHOCOLATE, ModFluids.DARK_CHOCOLATE_FLOWING, new SimpleFluidRenderHandler(
-				new Identifier(CreateSwitzerland.MOD_ID, "fluid/dark_chocolate_still"),
-				new Identifier(CreateSwitzerland.MOD_ID, "fluid/dark_chocolate_flow")
+				new Identifier(CreateSwitzerland.MOD_ID, "block/dark_chocolate_still"),
+				new Identifier(CreateSwitzerland.MOD_ID, "block/dark_chocolate_flow")
 		));
 
 		FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.DARK_CHOCOLATE_FLOWING, ModFluids.DARK_CHOCOLATE_FLOWING, new SimpleFluidRenderHandler(
-				new Identifier(CreateSwitzerland.MOD_ID, "fluid/dark_chocolate_still"),
-				new Identifier(CreateSwitzerland.MOD_ID, "fluid/dark_chocolate_flow")
+				new Identifier(CreateSwitzerland.MOD_ID, "block/dark_chocolate_still"),
+				new Identifier(CreateSwitzerland.MOD_ID, "block/dark_chocolate_flow")
+		));
+
+		FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.WHITE_CHOCOLATE, ModFluids.WHITE_CHOCOLATE_FLOWING, new SimpleFluidRenderHandler(
+				new Identifier(CreateSwitzerland.MOD_ID, "block/white_chocolate_still"),
+				new Identifier(CreateSwitzerland.MOD_ID, "block/white_chocolate_flow")
+		));
+
+		FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.WHITE_CHOCOLATE_FLOWING, ModFluids.WHITE_CHOCOLATE_FLOWING, new SimpleFluidRenderHandler(
+				new Identifier(CreateSwitzerland.MOD_ID, "block/white_chocolate_still"),
+				new Identifier(CreateSwitzerland.MOD_ID, "block/white_chocolate_flow")
 		));
     }
 }

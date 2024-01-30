@@ -16,7 +16,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 
-public abstract class DarkChocolateFluid extends FlowableFluid {
+public abstract class WhiteChocolateFluid extends FlowableFluid {
 
 	@Override
 	protected boolean isInfinite(World world) {
@@ -61,22 +61,22 @@ public abstract class DarkChocolateFluid extends FlowableFluid {
 
 	@Override
 	public Fluid getStill() {
-		return ModFluids.DARK_CHOCOLATE;
+		return ModFluids.WHITE_CHOCOLATE;
 	}
 
 	@Override
 	public Fluid getFlowing() {
-		return ModFluids.DARK_CHOCOLATE_FLOWING;
+		return ModFluids.WHITE_CHOCOLATE_FLOWING;
 	}
 
 	@Override
 	public Item getBucketItem() {
-		return ModFluids.DARK_CHOCOLATE_BUCKET;
+		return ModFluids.WHITE_CHOCOLATE_BUCKET;
 	}
 
 	@Override
 	public BlockState toBlockState(FluidState state) {
-		return ModFluids.DARK_CHOCOLATE_FLUID_BLOCK.getDefaultState().with(FluidBlock.LEVEL, getBlockStateLevel(state));
+		return ModFluids.WHITE_CHOCOLATE_FLUID_BLOCK.getDefaultState().with(FluidBlock.LEVEL, getBlockStateLevel(state));
 	}
 
 	@Override
@@ -89,7 +89,7 @@ public abstract class DarkChocolateFluid extends FlowableFluid {
 		return fluid == getStill() || fluid == getFlowing();
 	}
 
-	public static class Flowing extends DarkChocolateFluid {
+	public static class Flowing extends WhiteChocolateFluid {
 
 		@Override
 		protected void appendProperties(StateManager.Builder<Fluid, FluidState> builder) {
@@ -108,7 +108,7 @@ public abstract class DarkChocolateFluid extends FlowableFluid {
 		}
 	}
 
-	public static class Still extends DarkChocolateFluid {
+	public static class Still extends WhiteChocolateFluid {
 
 		@Override
 		public int getLevel(FluidState state) {

@@ -6,6 +6,7 @@ import com.simibubi.create.AllItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.hackfight.createswitzerland.CreateSwitzerland;
 import net.hackfight.createswitzerland.block.ModBlocks;
+import net.hackfight.createswitzerland.fluid.ModFluids;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -35,7 +36,8 @@ public class ModItemGroups {
 						entries.add(ModBlocks.DARK_CHOCOLATE_BLOCK);
 						entries.add(ModBlocks.WHITE_CHOCOLATE_BLOCK);
 						entries.add(AllFluids.CHOCOLATE.get().getBucketItem());
-						entries.add(ModItems.DARK_CHOCOLATE_BUCKET);
+						entries.add(ModFluids.DARK_CHOCOLATE_BUCKET);
+						entries.add(ModFluids.WHITE_CHOCOLATE_BUCKET);
 
                     }).build());
     public static void registerItemGroups()

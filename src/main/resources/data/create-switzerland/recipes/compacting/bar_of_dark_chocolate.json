@@ -1,0 +1,15 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "create-switzerland:dark_chocolate",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "create-switzerland:bar_of_dark_chocolate"
+    }
+  ]
+}

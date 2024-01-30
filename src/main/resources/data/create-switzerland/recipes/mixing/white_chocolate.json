@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "create-switzerland:cocoa_butter",
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create-switzerland:white_chocolate",
+      "amount": 5400
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -23,9 +23,6 @@ public class ModBlocks {
 	public static final Block WHITE_CHOCOLATE_BLOCK = registerBlock("white_chocolate_block",
 			new Block(FabricBlockSettings.create().mapColor(MapColor.BROWN).strength(2.0f, 3.0f)));
 
-	public static final Block DARK_CHOCOLATE_FLUID_BLOCK = registerBlockWithoutBlockItem("dark_chocolate",
-			new FluidBlock(ModFluids.DARK_CHOCOLATE, FabricBlockSettings.copyOf(Blocks.WATER).mapColor(MapColor.BROWN)));
-
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(CreateSwitzerland.MOD_ID, name), block);

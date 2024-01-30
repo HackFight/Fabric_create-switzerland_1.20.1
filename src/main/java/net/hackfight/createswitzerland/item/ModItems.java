@@ -21,7 +21,6 @@ public class ModItems {
 	public static final Item BAR_OF_DARK_CHOCOLATE = registerItem("bar_of_dark_chocolate", new Item(new FabricItemSettings()));
 	public static final Item BAR_OF_WHITE_CHOCOLATE = registerItem("bar_of_white_chocolate", new Item(new FabricItemSettings()));
 	public static final Item CRUSHED_FLOWER = registerItem("crushed_flower", new Item(new FabricItemSettings()));
-	public static final Item DARK_CHOCOLATE_BUCKET = registerItem("dark_chocolate_bucket", new BucketItem(ModFluids.DARK_CHOCOLATE, new FabricItemSettings().maxCount(1)));
 
 
 

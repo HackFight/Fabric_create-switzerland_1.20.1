@@ -3,6 +3,7 @@ package net.hackfight.createswitzerland;
 import net.fabricmc.api.ModInitializer;
 
 import net.hackfight.createswitzerland.block.ModBlocks;
+import net.hackfight.createswitzerland.fluid.ModFluids;
 import net.hackfight.createswitzerland.item.ModItemGroups;
 import net.hackfight.createswitzerland.item.ModItems;
 import org.slf4j.Logger;
@@ -20,5 +21,6 @@ public class CreateSwitzerland implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModFluids.registerModFluids();
 	}
 }
