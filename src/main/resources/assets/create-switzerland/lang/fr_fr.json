@@ -10,6 +10,10 @@
   "item.create-switzerland.bar_of_dark_chocolate": "Barre de Chocolat Noir",
   "item.create-switzerland.bar_of_white_chocolate": "Barre de Chocolat Blanc",
 
+  "item.create.chocolate_glazed_berries": "Baies au Chocolat au Lait",
+  "item.create-switzerland.dark_chocolate_glazed_berries": "Baies au Chocolat Noir",
+  "item.create-switzerland.white_chocolate_glazed_berries": "Baies au Chocolat Blanc",
+
   "item.create.chocolate_bucket": "Seau de Chocolat au Lait",
   "item.create-switzerland.dark_chocolate_bucket": "Seau de Chocolat Noir",
   "item.create-switzerland.white_chocolate_bucket": "Seau de Chocolat Blanc",
@@ -21,6 +25,14 @@
   "block.create-switzerland.milk_chocolate_block": "Bloc de Chocolat au Lait",
   "block.create-switzerland.dark_chocolate_block": "Bloc de Chocolat Noir",
   "block.create-switzerland.white_chocolate_block": "Bloc de Chocolat Blanc",
+
+  "block.create-switzerland.milk_chocolate_stairs": "Escaliers en Chocolat au Lait",
+  "block.create-switzerland.dark_chocolate_stairs": "Escaliers en Chocolat Noir",
+  "block.create-switzerland.white_chocolate_stairs": "Escaliers en Chocolat Blanc",
+
+  "block.create-switzerland.milk_chocolate_slab": "Dalle en Chocolat au Lait",
+  "block.create-switzerland.dark_chocolate_slab": "Dalle en Chocolat Noir",
+  "block.create-switzerland.white_chocolate_slab": "Dalle en Chocolat Blanc",
 
   "itemgroup.swiss_confissery": "Confisserie Suisse"
 }

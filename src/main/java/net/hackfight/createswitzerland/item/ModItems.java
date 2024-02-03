@@ -3,9 +3,8 @@ package net.hackfight.createswitzerland.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.hackfight.createswitzerland.fluid.ModFluids;
 import net.hackfight.createswitzerland.CreateSwitzerland;
-import net.minecraft.item.BucketItem;
+import net.hackfight.createswitzerland.item.custom.MilkChocolateTabletItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -19,10 +18,11 @@ public class ModItems {
     public static final Item COCOA_POWDER = registerItem("cocoa_powder", new Item(new FabricItemSettings()));
     public static final Item COCOA_BUTTER = registerItem("cocoa_butter", new Item(new FabricItemSettings()));
 	public static final Item CRUSHED_FLOWER = registerItem("crushed_flower", new Item(new FabricItemSettings()));
-	public static final Item BAR_OF_DARK_CHOCOLATE = registerItem("bar_of_dark_chocolate", new Item(new FabricItemSettings()));
-	public static final Item BAR_OF_WHITE_CHOCOLATE = registerItem("bar_of_white_chocolate", new Item(new FabricItemSettings()));
+	public static final Item BAR_OF_DARK_CHOCOLATE = registerItem("bar_of_dark_chocolate", new Item(new FabricItemSettings().food(ModFoodComponents.BAR_OF_DARK_CHOCOLATE)));
+	public static final Item BAR_OF_WHITE_CHOCOLATE = registerItem("bar_of_white_chocolate", new Item(new FabricItemSettings().food(ModFoodComponents.BAR_OF_WHITE_CHOCOLATE)));
 	public static final Item DARK_CHOCOLATE_GLAZED_BERRIES = registerItem("dark_chocolate_glazed_berries", new Item(new FabricItemSettings().food(ModFoodComponents.DARK_CHOCOLATE_GLAZED_BERRIES)));
 	public static final Item WHITE_CHOCOLATE_GLAZED_BERRIES = registerItem("white_chocolate_glazed_berries", new Item(new FabricItemSettings().food(ModFoodComponents.WHITE_CHOCOLATE_GLAZED_BERRIES)));
+	public static final Item MILK_CHOCOLATE_TABLET = registerItem("milk_chocolate_tablet", new MilkChocolateTabletItem(new FabricItemSettings().food(ModFoodComponents.MILK_CHOCOLATE_TABLET)));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries)

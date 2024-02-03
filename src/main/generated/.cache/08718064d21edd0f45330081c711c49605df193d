@@ -1,4 +1,6 @@
-// 1.20.1	2024-01-30T18:52:51.2816362	Create: Switzerland/Block Loot Tables
+// 1.20.1	2024-01-31T14:09:47.095575	Create: Switzerland/Block Loot Tables
 98a6070920943e00607a45e13c186331305610c4 data\create-switzerland\loot_tables\blocks\dark_chocolate_block.json
-d879a6b7fa70398e57756e8cebda33f42ef2e309 data\create-switzerland\loot_tables\blocks\milk_chocolate_block.json
+99920e48730c5afe102e8ce70a1b8e2b227de3a4 data\create-switzerland\loot_tables\blocks\white_chocolate_slab.json
+95f2e37dd444eaeb8711c0fb19ede762e5cde815 data\create-switzerland\loot_tables\blocks\white_chocolate_stairs.json
 facc58cf0185e892be1152eda6d944515802f5cc data\create-switzerland\loot_tables\blocks\white_chocolate_block.json
+d879a6b7fa70398e57756e8cebda33f42ef2e309 data\create-switzerland\loot_tables\blocks\milk_chocolate_block.json

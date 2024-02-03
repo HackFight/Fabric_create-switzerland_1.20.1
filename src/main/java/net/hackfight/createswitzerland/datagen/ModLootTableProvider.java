@@ -14,5 +14,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MILK_CHOCOLATE_BLOCK);
 		addDrop(ModBlocks.DARK_CHOCOLATE_BLOCK);
 		addDrop(ModBlocks.WHITE_CHOCOLATE_BLOCK);
+
+		addDrop(ModBlocks.WHITE_CHOCOLATE_STAIRS);
+		addDrop(ModBlocks.WHITE_CHOCOLATE_STAIRS);
+		addDrop(ModBlocks.WHITE_CHOCOLATE_STAIRS);
+
+		addDrop(ModBlocks.WHITE_CHOCOLATE_SLAB, slabDrops(ModBlocks.MILK_CHOCOLATE_SLAB));
+		addDrop(ModBlocks.WHITE_CHOCOLATE_SLAB, slabDrops(ModBlocks.DARK_CHOCOLATE_SLAB));
+		addDrop(ModBlocks.WHITE_CHOCOLATE_SLAB, slabDrops(ModBlocks.WHITE_CHOCOLATE_SLAB));
     }
 }

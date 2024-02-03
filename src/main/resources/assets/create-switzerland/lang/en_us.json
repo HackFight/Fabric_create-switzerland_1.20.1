@@ -10,6 +10,8 @@
   "item.create-switzerland.bar_of_dark_chocolate": "Bar of Dark Chocolate",
   "item.create-switzerland.bar_of_white_chocolate": "Bar of White Chocolate",
 
+  "item.create-switzerland.milk_chocolate_tablet": "Milk Chocolate Tablet",
+
   "item.create.chocolate_glazed_berries": "Milk Chocolate Glazed Berries",
   "item.create-switzerland.dark_chocolate_glazed_berries": "Dark Chocolate Glazed Berries",
   "item.create-switzerland.white_chocolate_glazed_berries": "White Chocolate Glazed Berries",
@@ -25,6 +27,14 @@
   "block.create-switzerland.milk_chocolate_block": "Milk Chocolate Block",
   "block.create-switzerland.dark_chocolate_block": "Dark Chocolate Block",
   "block.create-switzerland.white_chocolate_block": "White Chocolate Block",
+
+  "block.create-switzerland.milk_chocolate_stairs": "Milk Chocolate Stairs",
+  "block.create-switzerland.dark_chocolate_stairs": "Dark Chocolate Stairs",
+  "block.create-switzerland.white_chocolate_stairs": "White Chocolate Stair",
+
+  "block.create-switzerland.milk_chocolate_slab": "Milk Chocolate Slab",
+  "block.create-switzerland.dark_chocolate_slab": "Dark Chocolate Slab",
+  "block.create-switzerland.white_chocolate_slab": "White Chocolate Slab",
 
   "itemgroup.swiss_confissery": "Swiss Confissery"
 }

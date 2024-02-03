@@ -8,6 +8,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.FluidBlock;
 import net.minecraft.block.MapColor;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -22,6 +24,18 @@ public class ModBlocks {
 			new Block(FabricBlockSettings.create().mapColor(MapColor.BROWN).strength(2.0f, 3.0f)));
 	public static final Block WHITE_CHOCOLATE_BLOCK = registerBlock("white_chocolate_block",
 			new Block(FabricBlockSettings.create().mapColor(MapColor.BROWN).strength(2.0f, 3.0f)));
+	public static final Block MILK_CHOCOLATE_STAIRS = registerBlock("milk_chocolate_stairs",
+			new StairsBlock(ModBlocks.MILK_CHOCOLATE_BLOCK.getDefaultState(), FabricBlockSettings.create().mapColor(MapColor.BROWN).strength(2.0f, 3.0f)));
+	public static final Block DARK_CHOCOLATE_STAIRS = registerBlock("dark_chocolate_stairs",
+			new StairsBlock(ModBlocks.DARK_CHOCOLATE_BLOCK.getDefaultState(), FabricBlockSettings.create().mapColor(MapColor.BROWN).strength(2.0f, 3.0f)));
+	public static final Block WHITE_CHOCOLATE_STAIRS = registerBlock("white_chocolate_stairs",
+			new StairsBlock(ModBlocks.WHITE_CHOCOLATE_BLOCK.getDefaultState(), FabricBlockSettings.create().mapColor(MapColor.BROWN).strength(2.0f, 3.0f)));
+	public static final Block MILK_CHOCOLATE_SLAB = registerBlock("milk_chocolate_slab",
+			new SlabBlock(FabricBlockSettings.create().mapColor(MapColor.BROWN).strength(2.0f, 3.0f)));
+	public static final Block DARK_CHOCOLATE_SLAB = registerBlock("dark_chocolate_slab",
+			new SlabBlock(FabricBlockSettings.create().mapColor(MapColor.BROWN).strength(2.0f, 3.0f)));
+	public static final Block WHITE_CHOCOLATE_SLAB = registerBlock("white_chocolate_slab",
+			new SlabBlock(FabricBlockSettings.create().mapColor(MapColor.BROWN).strength(2.0f, 3.0f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

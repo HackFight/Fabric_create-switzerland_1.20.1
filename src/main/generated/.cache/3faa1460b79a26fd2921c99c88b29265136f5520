@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-30T18:52:51.2796119	Create: Switzerland/Recipes
+// 1.20.1	2024-01-31T14:09:47.0935824	Create: Switzerland/Recipes
 13562658a7fff1af2012d9892fa2a25b195deebc data\create-switzerland\advancements\recipes\building_blocks\white_chocolate_block.json
 582dde95b9b5b603dab7389f664c3334ac54d7b4 data\create-switzerland\recipes\dark_chocolate_block.json
 4f66a21fa699469dd7ac7d1371eb0a86793cc214 data\create-switzerland\advancements\recipes\building_blocks\bar_of_white_chocolate.json
@@ -6,6 +6,8 @@
 bc1367464bc5f17487c4c3571137a4ba99d7e37c data\create-switzerland\recipes\bar_of_dark_chocolate.json
 99773e1e00f2f2f02c427d08eb2a8cdf98709915 data\create-switzerland\recipes\milk_chocolate_block.json
 ddf3a45b2ea42b2b33ee42e5a7142e99a22b3d58 data\create-switzerland\advancements\recipes\building_blocks\dark_chocolate_block.json
+a9e93d755a09fc5a9178ae4451955d318232f184 data\create-switzerland\recipes\milk_chocolate_stairs.json
+ddedc1dd517f48dc53b056f598a6ac255e5d1e17 data\create-switzerland\advancements\recipes\building_blocks\milk_chocolate_stairs.json
 cb02f514379ac85a93a09059869104d580865a9f data\create-switzerland\advancements\recipes\building_blocks\bar_of_dark_chocolate.json
 b295ab79137bef2cdb96450429076504cd1c7dc8 data\create-switzerland\advancements\recipes\building_blocks\milk_chocolate_block.json
 e7671459270e68d4363669bf1d8fff1619142863 data\create-switzerland\advancements\recipes\building_blocks\bar_of_chocolate.json

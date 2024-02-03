@@ -29,10 +29,13 @@ public class ModItemGroups {
 						entries.add(ModItems.CRUSHED_FLOWER);
                         entries.add(Items.MILK_BUCKET);
                         entries.add(Items.SUGAR);
+						entries.add(Items.SWEET_BERRIES);
 
 						entries.add(AllItems.BAR_OF_CHOCOLATE);
 						entries.add(ModItems.BAR_OF_DARK_CHOCOLATE);
 						entries.add(ModItems.BAR_OF_WHITE_CHOCOLATE);
+
+						entries.add(ModItems.MILK_CHOCOLATE_TABLET);
 
 						entries.add(AllItems.CHOCOLATE_BERRIES);
 						entries.add(ModItems.DARK_CHOCOLATE_GLAZED_BERRIES);
@@ -43,8 +46,16 @@ public class ModItemGroups {
 						entries.add(ModFluids.WHITE_CHOCOLATE_BUCKET);
 
                         entries.add(ModBlocks.MILK_CHOCOLATE_BLOCK);
+						entries.add(ModBlocks.MILK_CHOCOLATE_STAIRS);
+						entries.add(ModBlocks.MILK_CHOCOLATE_SLAB);
+
 						entries.add(ModBlocks.DARK_CHOCOLATE_BLOCK);
+						entries.add(ModBlocks.DARK_CHOCOLATE_STAIRS);
+						entries.add(ModBlocks.DARK_CHOCOLATE_SLAB);
+
 						entries.add(ModBlocks.WHITE_CHOCOLATE_BLOCK);
+						entries.add(ModBlocks.WHITE_CHOCOLATE_STAIRS);
+						entries.add(ModBlocks.WHITE_CHOCOLATE_SLAB);
                     }).build());
     public static void registerItemGroups()
     {
