@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "create-switzerland:block/milk_chocolate_block",
+    "side": "create-switzerland:block/milk_chocolate_block",
+    "top": "create-switzerland:block/milk_chocolate_block"
+  }
+}

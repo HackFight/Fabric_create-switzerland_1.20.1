@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "create-switzerland:hazel_log",
+    "create-switzerland:hazel_wood",
+    "create-switzerland:stripped_hazel_log",
+    "create-switzerland:stripped_hazel_wood"
+  ]
+}

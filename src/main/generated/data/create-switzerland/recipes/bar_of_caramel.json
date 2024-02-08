@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "create-switzerland:caramel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "create-switzerland:bar_of_caramel"
+  }
+}

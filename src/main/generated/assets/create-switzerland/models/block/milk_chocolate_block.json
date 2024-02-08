@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "create-switzerland:block/milk_chocolate_block"
+  }
+}

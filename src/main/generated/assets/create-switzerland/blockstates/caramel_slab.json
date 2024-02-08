@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create-switzerland:block/caramel_slab"
+    },
+    "type=double": {
+      "model": "create-switzerland:block/caramel_block"
+    },
+    "type=top": {
+      "model": "create-switzerland:block/caramel_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "create-switzerland:white_chocolate_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "create-switzerland:bar_of_white_chocolate"
+  }
+}

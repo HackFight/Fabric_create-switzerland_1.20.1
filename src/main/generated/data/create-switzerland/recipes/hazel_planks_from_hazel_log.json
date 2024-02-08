@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "create-switzerland:hazel_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "create-switzerland:hazel_planks"
+  }
+}

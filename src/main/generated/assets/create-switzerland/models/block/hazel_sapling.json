@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "create-switzerland:block/hazel_sapling"
+  }
+}
