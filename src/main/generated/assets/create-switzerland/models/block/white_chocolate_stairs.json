@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "create-switzerland:block/white_chocolate_block",
-    "side": "create-switzerland:block/white_chocolate_block",
-    "top": "create-switzerland:block/white_chocolate_block"
-  }
-}

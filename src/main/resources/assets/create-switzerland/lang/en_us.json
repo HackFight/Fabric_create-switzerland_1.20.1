@@ -5,12 +5,17 @@
   "item.create-switzerland.cocoa_powder": "Cococa Powder",
   "item.create-switzerland.cocoa_butter": "Cocoa Butter",
   "item.create-switzerland.crushed_flower": "Crushed Flower",
+  "item.create-switzerland.golden_leaf": "Golden Leaf",
+  "item.create-switzerland.unprocessed_golden_leaf": "Unprocessed Golden Leaf",
 
   "item.create.bar_of_chocolate": "Bar of Milk Chocolate",
   "item.create-switzerland.bar_of_dark_chocolate": "Bar of Dark Chocolate",
   "item.create-switzerland.bar_of_white_chocolate": "Bar of White Chocolate",
+  "item.create-switzerland.bar_of_caramel": "Bar of Caramel",
 
   "item.create-switzerland.milk_chocolate_tablet": "Milk Chocolate Tablet",
+  "item.create-switzerland.dark_chocolate_tablet": "Dark Chocolate Tablet",
+  "item.create-switzerland.white_chocolate_tablet": "White Chocolate Tablet",
 
   "item.create.chocolate_glazed_berries": "Milk Chocolate Glazed Berries",
   "item.create-switzerland.dark_chocolate_glazed_berries": "Dark Chocolate Glazed Berries",
@@ -19,22 +24,37 @@
   "item.create.chocolate_bucket": "Milk Chocolate Bucket",
   "item.create-switzerland.dark_chocolate_bucket": "Dark Chocolate Bucket",
   "item.create-switzerland.white_chocolate_bucket": "White Chocolate Bucket",
+  "item.create-switzerland.caramel_bucket": "Caramel Bucket",
 
   "block.create.chocolate": "Milk Chocolate",
   "block.create-switzerland.dark_chocolate": "Dark Chocolate",
   "block.create-switzerland.white_chocolate": "White Chocolate",
+  "block.create-switzerland.caramel": "Caramel",
 
   "block.create-switzerland.milk_chocolate_block": "Milk Chocolate Block",
   "block.create-switzerland.dark_chocolate_block": "Dark Chocolate Block",
   "block.create-switzerland.white_chocolate_block": "White Chocolate Block",
+  "block.create-switzerland.caramel_block": "Caramel Block",
 
   "block.create-switzerland.milk_chocolate_stairs": "Milk Chocolate Stairs",
   "block.create-switzerland.dark_chocolate_stairs": "Dark Chocolate Stairs",
   "block.create-switzerland.white_chocolate_stairs": "White Chocolate Stair",
+  "block.create-switzerland.caramel_stairs": "Caramel Stair",
 
   "block.create-switzerland.milk_chocolate_slab": "Milk Chocolate Slab",
   "block.create-switzerland.dark_chocolate_slab": "Dark Chocolate Slab",
   "block.create-switzerland.white_chocolate_slab": "White Chocolate Slab",
+  "block.create-switzerland.caramel_slab": "Caramel Slab",
 
-  "itemgroup.swiss_confissery": "Swiss Confissery"
+  "block.create-switzerland.hazel_sapling": "Hazel Sapling",
+  "item.create-switzerland.hazelnut": "Hazelnut",
+  "block.create-switzerland.hazel_log": "Hazel Log",
+  "block.create-switzerland.hazel_wood": "Hazel Wood",
+  "block.create-switzerland.stripped_hazel_log": "Stripped Hazel Log",
+  "block.create-switzerland.stripped_hazel_wood": "Stripped Hazel Wood",
+  "block.create-switzerland.hazel_planks": "Hazel Planks",
+  "block.create-switzerland.hazel_leaves": "Hazel Leaves",
+
+  "itemgroup.swiss_confissery": "Swiss Confissery",
+  "itemgroup.swiss_wood": "Swiss Wood"
 }

@@ -1,0 +1,40 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "create-switzerland:bar_of_white_chocolate"
+    },
+    {
+      "item": "create-switzerland:bar_of_white_chocolate"
+    },
+    {
+      "item": "create-switzerland:bar_of_white_chocolate"
+    },
+    {
+      "item": "create-switzerland:bar_of_white_chocolate"
+    },
+    {
+      "item": "create-switzerland:bar_of_white_chocolate"
+    },
+    {
+      "item": "create-switzerland:bar_of_white_chocolate"
+    },
+    {
+      "item": "create-switzerland:bar_of_white_chocolate"
+    },
+    {
+      "item": "create-switzerland:bar_of_white_chocolate"
+    }
+  ],
+  "results": [
+    {
+      "item": "create-switzerland:white_chocolate_tablet"
+    }
+  ]
+}

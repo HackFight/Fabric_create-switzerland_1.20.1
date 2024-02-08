@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "create-switzerland:hazel_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "create-switzerland:stripped_hazel_log"
+    }
+  ],
+  "processingTime": 50
+}

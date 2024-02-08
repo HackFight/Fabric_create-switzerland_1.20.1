@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "create-switzerland:hazel_wood"
+    }
+  ],
+  "results": [
+    {
+      "item": "create-switzerland:stripped_hazel_wood"
+    }
+  ],
+  "processingTime": 50
+}

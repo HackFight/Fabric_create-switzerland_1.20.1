@@ -1,0 +1,30 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:golden_sheet"
+  },
+  "transitionalItem": {
+    "item": "create-switzerland:unprocessed_golden_leaf"
+  },
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create-switzerland:unprocessed_golden_leaf"
+        }
+      ],
+      "results": [
+        {
+          "item": "create-switzerland:unprocessed_golden_leaf"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create-switzerland:golden_leaf"
+    }
+  ],
+  "loops": 5
+}

@@ -1,14 +1,15 @@
 package net.hackfight.createswitzerland.item.custom;
 
-import net.hackfight.createswitzerland.mixin.CustomLivingEntityInvoker;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
+import java.util.ArrayList;
 import java.util.Iterator;
-
+import java.util.List;
 
 
 public class MilkChocolateTabletItem extends Item {
@@ -24,12 +25,19 @@ public class MilkChocolateTabletItem extends Item {
 
 			Iterator<StatusEffectInstance> iterator = user.getActiveStatusEffects().values().iterator();
 
+			ArrayList<StatusEffectInstance> effects = new ArrayList<StatusEffectInstance>();
+
 			while (iterator.hasNext()) {
 
-				StatusEffectInstance effect = iterator.next();
-				if(effect.getEffectType().isBeneficial()) {
-					user.removeStatusEffect(effect.getEffectType());
-					iterator.remove();
+				effects.add(iterator.next());
+
+			}
+
+			for (int i = 0; i < effects.size(); i++) {
+				StatusEffect effect = effects.get(i).getEffectType();
+
+				if (!effect.isBeneficial()) {
+					user.removeStatusEffect(effect);
 				}
 			}
 		}

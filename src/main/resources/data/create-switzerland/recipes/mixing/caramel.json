@@ -2,17 +2,22 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "fluidTag": "create-switzerland:dark_chocolate",
-      "amount": 9000
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
     },
     {
       "fluidTag": "c:milk",
-      "amount": 18000
+      "amount": 27000
     }
   ],
   "results": [
     {
-      "fluid": "create-switzerland:dark_chocolate",
+      "fluid": "create-switzerland:caramel",
       "amount": 27000
     }
   ],

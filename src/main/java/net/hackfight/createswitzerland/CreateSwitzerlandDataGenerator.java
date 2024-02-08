@@ -3,6 +3,9 @@ package net.hackfight.createswitzerland;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.hackfight.createswitzerland.datagen.*;
+import net.hackfight.createswitzerland.world.ModConfiguredFeatures;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 
 public class CreateSwitzerlandDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -15,5 +18,10 @@ public class CreateSwitzerlandDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+	}
+
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder) {
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::boostrap);
 	}
 }

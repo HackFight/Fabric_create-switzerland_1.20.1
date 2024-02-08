@@ -5,10 +5,17 @@
   "item.create-switzerland.cocoa_powder": "Poudre de Cacao",
   "item.create-switzerland.cocoa_butter": "Beurre de Cacao",
   "item.create-switzerland.crushed_flower": "Fleurs broyées",
+  "item.create-switzerland.golden_leaf": "Feuille d'Or",
+  "item.create-switzerland.unprocessed_golden_leaf": "Feuille d'Or non transformée",
 
   "item.create.bar_of_chocolate": "Barre de Chocolat au Lait",
   "item.create-switzerland.bar_of_dark_chocolate": "Barre de Chocolat Noir",
   "item.create-switzerland.bar_of_white_chocolate": "Barre de Chocolat Blanc",
+  "item.create-switzerland.bar_of_caramel": "Barre de Caramel",
+
+  "item.create-switzerland.milk_chocolate_tablet": "Plaque de Chocolat au Lait",
+  "item.create-switzerland.dark_chocolate_tablet": "Plaque de Chocolat Noir",
+  "item.create-switzerland.white_chocolate_tablet": "Plaque de Chocolat Blanc",
 
   "item.create.chocolate_glazed_berries": "Baies au Chocolat au Lait",
   "item.create-switzerland.dark_chocolate_glazed_berries": "Baies au Chocolat Noir",
@@ -17,22 +24,37 @@
   "item.create.chocolate_bucket": "Seau de Chocolat au Lait",
   "item.create-switzerland.dark_chocolate_bucket": "Seau de Chocolat Noir",
   "item.create-switzerland.white_chocolate_bucket": "Seau de Chocolat Blanc",
+  "item.create-switzerland.caramel_bucket": "Seau de Caramel",
 
   "block.create.chocolate": "Chocolat au Lait",
   "block.create-switzerland.dark_chocolate": "Chocolat Noir",
   "block.create-switzerland.white_chocolate": "Chocolat Blanc",
+  "block.create-switzerland.caramel": "Caramel",
 
   "block.create-switzerland.milk_chocolate_block": "Bloc de Chocolat au Lait",
   "block.create-switzerland.dark_chocolate_block": "Bloc de Chocolat Noir",
   "block.create-switzerland.white_chocolate_block": "Bloc de Chocolat Blanc",
+  "block.create-switzerland.caramel_block": "Bloc de Caramel",
 
   "block.create-switzerland.milk_chocolate_stairs": "Escaliers en Chocolat au Lait",
   "block.create-switzerland.dark_chocolate_stairs": "Escaliers en Chocolat Noir",
   "block.create-switzerland.white_chocolate_stairs": "Escaliers en Chocolat Blanc",
+  "block.create-switzerland.caramel_stairs": "Escaliers en Caramel",
 
   "block.create-switzerland.milk_chocolate_slab": "Dalle en Chocolat au Lait",
   "block.create-switzerland.dark_chocolate_slab": "Dalle en Chocolat Noir",
   "block.create-switzerland.white_chocolate_slab": "Dalle en Chocolat Blanc",
+  "block.create-switzerland.caramel_slab": "Dalle en Caramel",
 
-  "itemgroup.swiss_confissery": "Confisserie Suisse"
+  "block.create-switzerland.hazel_sapling": "Pousse de Noisetier",
+  "item.create-switzerland.hazelnut": "Noisette",
+  "block.create-switzerland.hazel_log": "Bûche de Noisetier",
+  "block.create-switzerland.hazel_wood": "Bois de Noisetier",
+  "block.create-switzerland.stripped_hazel_log": "Bûche de Noisetier écorcée",
+  "block.create-switzerland.stripped_hazel_wood": "Bois de Noisetier écorcé",
+  "block.create-switzerland.hazel_planks": "Planches de Noisetier",
+  "block.create-switzerland.hazel_leaves": "Feuilles de Noisetier",
+
+  "itemgroup.swiss_confissery": "Confisserie Suisse",
+  "itemgroup.swiss_wood": "Bois Suisse"
 }

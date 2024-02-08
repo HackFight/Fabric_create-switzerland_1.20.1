@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "minecraft:flowers"
+    }
+  ],
+  "results": [
+    {
+      "item": "create-switzerland:crushed_flower"
+    }
+  ],
+  "processingTime": 150
+}

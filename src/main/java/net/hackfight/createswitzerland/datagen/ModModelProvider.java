@@ -20,14 +20,23 @@ public class ModModelProvider extends FabricModelProvider {
 		BlockStateModelGenerator.BlockTexturePool milkChocolatePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MILK_CHOCOLATE_BLOCK);
 		BlockStateModelGenerator.BlockTexturePool darkChocolatePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_CHOCOLATE_BLOCK);
 		BlockStateModelGenerator.BlockTexturePool whiteChocolatePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WHITE_CHOCOLATE_BLOCK);
+		BlockStateModelGenerator.BlockTexturePool caramelPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CARAMEL_BLOCK);
 
 		milkChocolatePool.stairs(ModBlocks.MILK_CHOCOLATE_STAIRS);
 		darkChocolatePool.stairs(ModBlocks.DARK_CHOCOLATE_STAIRS);
 		whiteChocolatePool.stairs(ModBlocks.WHITE_CHOCOLATE_STAIRS);
+		caramelPool.stairs(ModBlocks.CARAMEL_STAIRS);
 
 		milkChocolatePool.slab(ModBlocks.MILK_CHOCOLATE_SLAB);
 		darkChocolatePool.slab(ModBlocks.DARK_CHOCOLATE_SLAB);
 		whiteChocolatePool.slab(ModBlocks.WHITE_CHOCOLATE_SLAB);
+		caramelPool.slab(ModBlocks.CARAMEL_SLAB);
+
+		blockStateModelGenerator.registerTintableCross(ModBlocks.HAZEL_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+		blockStateModelGenerator.registerLog(ModBlocks.HAZEL_LOG).log(ModBlocks.HAZEL_LOG).wood(ModBlocks.HAZEL_WOOD);
+		blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_HAZEL_LOG).log(ModBlocks.STRIPPED_HAZEL_LOG).wood(ModBlocks.STRIPPED_HAZEL_WOOD);
+		blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HAZEL_PLANKS);
+		blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HAZEL_LEAVES);
 	}
 
 	@Override
@@ -38,14 +47,21 @@ public class ModModelProvider extends FabricModelProvider {
 		itemModelGenerator.register(ModItems.COCOA_POWDER, Models.GENERATED);
 		itemModelGenerator.register(ModItems.COCOA_BUTTER, Models.GENERATED);
 		itemModelGenerator.register(ModItems.CRUSHED_FLOWER,Models.GENERATED);
+		itemModelGenerator.register(ModItems.GOLDEN_LEAF,Models.GENERATED);
+		itemModelGenerator.register(ModItems.UNPROCESSED_GOLDEN_LEAF,Models.GENERATED);
+		itemModelGenerator.register(ModItems.HAZELNUT,Models.GENERATED);
 
 		itemModelGenerator.register(ModItems.BAR_OF_DARK_CHOCOLATE, Models.GENERATED);
 		itemModelGenerator.register(ModItems.BAR_OF_WHITE_CHOCOLATE, Models.GENERATED);
+		itemModelGenerator.register(ModItems.BAR_OF_CARAMEL, Models.GENERATED);
 
 		itemModelGenerator.register(ModItems.MILK_CHOCOLATE_TABLET, Models.GENERATED);
+		itemModelGenerator.register(ModItems.DARK_CHOCOLATE_TABLET, Models.GENERATED);
+		itemModelGenerator.register(ModItems.WHITE_CHOCOLATE_TABLET, Models.GENERATED);
 
 		itemModelGenerator.register(ModFluids.DARK_CHOCOLATE_BUCKET, Models.GENERATED);
 		itemModelGenerator.register(ModFluids.WHITE_CHOCOLATE_BUCKET, Models.GENERATED);
+		itemModelGenerator.register(ModFluids.CARAMEL_BUCKET, Models.GENERATED);
 
 		itemModelGenerator.register(ModItems.DARK_CHOCOLATE_GLAZED_BERRIES, Models.GENERATED);
 		itemModelGenerator.register(ModItems.WHITE_CHOCOLATE_GLAZED_BERRIES, Models.GENERATED);

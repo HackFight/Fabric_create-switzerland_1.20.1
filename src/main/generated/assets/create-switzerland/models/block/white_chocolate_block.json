@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "create-switzerland:block/white_chocolate_block"
-  }
-}

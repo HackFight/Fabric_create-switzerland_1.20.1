@@ -5,8 +5,10 @@
       "item": "minecraft:sugar"
     },
     {
-      "item": "create-switzerland:cocoa_butter",
-      "count": 2
+      "item": "create-switzerland:cocoa_butter"
+    },
+    {
+      "item": "create-switzerland:cocoa_butter"
     }
   ],
   "results": [
