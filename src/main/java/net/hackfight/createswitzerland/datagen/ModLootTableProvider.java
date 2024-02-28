@@ -44,6 +44,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     }
 
 	public LootTable.Builder hazelLeavesDrops(Block leaves, Block drop, float... chance) {
-		return this.leavesDrops(leaves, drop, chance).pool(LootPool.builder().rolls(ConstantLootNumberProvider.create(1.0F)).conditionally(WITHOUT_SILK_TOUCH_NOR_SHEARS).with(((LeafEntry.Builder)this.addSurvivesExplosionCondition(leaves, ItemEntry.builder(ModItems.HAZELNUT))).conditionally(TableBonusLootCondition.builder(Enchantments.FORTUNE, new float[]{0.005F, 0.0055555557F, 0.00625F, 0.008333334F, 0.025F}))));
+		return this.leavesDrops(leaves, drop, chance).pool(LootPool.builder().rolls(ConstantLootNumberProvider.create(1.0F)).conditionally(WITHOUT_SILK_TOUCH_NOR_SHEARS).with(((LeafEntry.Builder)this.addSurvivesExplosionCondition(leaves, ItemEntry.builder(ModItems.HAZELNUT))).conditionally(TableBonusLootCondition.builder(Enchantments.FORTUNE, new float[]{0.05F, 0.055555557F, 0.0625F, 0.08333334F, 0.25F}))));
 	}
 }
