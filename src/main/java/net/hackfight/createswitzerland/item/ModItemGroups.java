@@ -72,7 +72,7 @@ public class ModItemGroups {
 
 	public static final ItemGroup SWISS_WOOD = Registry.register(Registries.ITEM_GROUP,
 			new Identifier(CreateSwitzerland.MOD_ID, "swiss_wood"),
-			FabricItemGroup.builder().displayName(Text.translatable("itemgroup.swiss_confissery"))
+			FabricItemGroup.builder().displayName(Text.translatable("itemgroup.swiss_wood"))
 					.icon(() -> new ItemStack(ModItems.HAZELNUT)).entries((displayContext, entries) -> {
 
 						entries.add(ModBlocks.HAZEL_SAPLING);

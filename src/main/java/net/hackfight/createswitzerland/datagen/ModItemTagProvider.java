@@ -4,6 +4,8 @@ package net.hackfight.createswitzerland.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.hackfight.createswitzerland.block.ModBlocks;
+import net.hackfight.createswitzerland.item.ModItems;
+import net.hackfight.createswitzerland.util.ModTags;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 
@@ -25,5 +27,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 				.add(ModBlocks.HAZEL_WOOD.asItem())
 				.add(ModBlocks.STRIPPED_HAZEL_LOG.asItem())
 				.add(ModBlocks.STRIPPED_HAZEL_WOOD.asItem());
+
+		getOrCreateTagBuilder(ModTags.Items.CHOCOLATE_TABLET)
+				.add(ModItems.MILK_CHOCOLATE_TABLET)
+				.add(ModItems.DARK_CHOCOLATE_TABLET)
+				.add(ModItems.WHITE_CHOCOLATE_TABLET);
 	}
 }

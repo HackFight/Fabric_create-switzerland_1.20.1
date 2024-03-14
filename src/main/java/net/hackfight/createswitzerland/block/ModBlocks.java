@@ -101,6 +101,6 @@ public class ModBlocks {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_HAZEL_WOOD, 5, 5);
 
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_HAZEL_WOOD, 5, 20);
-		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_HAZEL_WOOD, 30, 60);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.HAZEL_LEAVES, 30, 60);
 	}
 }

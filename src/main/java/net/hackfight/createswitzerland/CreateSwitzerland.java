@@ -6,6 +6,9 @@ import net.hackfight.createswitzerland.block.ModBlocks;
 import net.hackfight.createswitzerland.fluid.ModFluids;
 import net.hackfight.createswitzerland.item.ModItemGroups;
 import net.hackfight.createswitzerland.item.ModItems;
+import net.hackfight.createswitzerland.projectile.ModPotatoProjectiles;
+import net.hackfight.createswitzerland.world.gen.ModWorldGeneration;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -26,6 +29,9 @@ public class CreateSwitzerland implements ModInitializer {
 		ModBlocks.registerFlammableBlocks();
 
 		ModFluids.registerModFluids();
+		ModWorldGeneration.generateModWorldGen();
+
+		ModPotatoProjectiles.registerModPotatoProjectiles();
 
 	}
 }
