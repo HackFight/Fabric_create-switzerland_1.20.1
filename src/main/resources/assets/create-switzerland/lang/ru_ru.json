@@ -1,0 +1,60 @@
+{
+  "item.create-switzerland.swiss_flag_icon": "Значок флага Швейцарии",
+
+  "item.create-switzerland.crushed_cocoa_beans": "Измельченные какао-бобы",
+  "item.create-switzerland.cocoa_powder": "Какао-порошок",
+  "item.create-switzerland.cocoa_butter": "Масло какао",
+  "item.create-switzerland.crushed_flower": "Измельченные цветы",
+  "item.create-switzerland.golden_leaf": "Золотой лист",
+  "item.create-switzerland.unprocessed_golden_leaf": "Необработанный золотой лист",
+
+  "item.create.bar_of_chocolate": "Брусок молочного шоколада",
+  "item.create-switzerland.bar_of_dark_chocolate": "Брусок тёмного шоколада",
+  "item.create-switzerland.bar_of_white_chocolate": "Брусок белого шоколада",
+  "item.create-switzerland.bar_of_caramel": "Брусок карамели",
+
+  "item.create-switzerland.milk_chocolate_tablet": "Плитка молочного шоколада",
+  "item.create-switzerland.dark_chocolate_tablet": "Плитка тёмного шоколада",
+  "item.create-switzerland.white_chocolate_tablet": "Плитка белого шоколада",
+
+  "item.create.chocolate_glazed_berries": "Ягоды глазированные в молочном шоколаде",
+  "item.create-switzerland.dark_chocolate_glazed_berries": "Ягоды глазированные в темном шоколаде",
+  "item.create-switzerland.white_chocolate_glazed_berries": "Ягоды глазированные в белом шоколаде",
+
+  "item.create.chocolate_bucket": "Ведро молочного шоколада",
+  "item.create-switzerland.dark_chocolate_bucket": "Ведро тёмного шоколада",
+  "item.create-switzerland.white_chocolate_bucket": "Ведро белого шоколада",
+  "item.create-switzerland.caramel_bucket": "Ведро карамели",
+
+  "block.create.chocolate": "Молочный шоколад",
+  "block.create-switzerland.dark_chocolate": "Темный шоколад",
+  "block.create-switzerland.white_chocolate": "Белый шоколад",
+  "block.create-switzerland.caramel": "Карамель",
+
+  "block.create-switzerland.milk_chocolate_block": "Блок молочного шоколада",
+  "block.create-switzerland.dark_chocolate_block": "Блок тёмного шоколада",
+  "block.create-switzerland.white_chocolate_block": "Блок белого шоколада",
+  "block.create-switzerland.caramel_block": "Блок карамели",
+
+  "block.create-switzerland.milk_chocolate_stairs": "Ступеньки из молочного шоколада",
+  "block.create-switzerland.dark_chocolate_stairs": "Ступеньки из тёмного шоколада",
+  "block.create-switzerland.white_chocolate_stairs": "Ступеньки из белого шоколада",
+  "block.create-switzerland.caramel_stairs": "Карамельные ступеньки",
+
+  "block.create-switzerland.milk_chocolate_slab": "Плита из молочного шоколада",
+  "block.create-switzerland.dark_chocolate_slab": "Плита из тёмного шоколада",
+  "block.create-switzerland.white_chocolate_slab": "Плита из белого шоколада",
+  "block.create-switzerland.caramel_slab": "Карамельная плита",
+
+  "block.create-switzerland.hazel_sapling": "Саженец орешника",
+  "item.create-switzerland.hazelnut": "Лесной орех",
+  "block.create-switzerland.hazel_log": "Бревно орешника",
+  "block.create-switzerland.hazel_wood": "Орешник",
+  "block.create-switzerland.stripped_hazel_log": "Обтёсанное бревно орешника",
+  "block.create-switzerland.stripped_hazel_wood": "Обтёсанная древесина орешника",
+  "block.create-switzerland.hazel_planks": "Доски орешника",
+  "block.create-switzerland.hazel_leaves": "Листья орешника",
+
+  "itemgroup.swiss_confissery": "Швейцарская кондитерская",
+  "itemgroup.swiss_wood": "Швейцарское дерево"
+}
