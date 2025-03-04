@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "create-switzerland:caramel_block",
+    "create-switzerland:caramel_slab",
+    "create-switzerland:caramel_stairs",
+    "create-switzerland:dark_chocolate_block",
+    "create-switzerland:dark_chocolate_stairs",
+    "create-switzerland:dark_chocolate_slab",
+    "create-switzerland:milk_chocolate_block",
+    "create-switzerland:milk_chocolate_stairs",
+    "create-switzerland:milk_chocolate_slab",
+    "create-switzerland:white_chocolate_block",
+    "create-switzerland:white_chocolate_stairs",
+    "create-switzerland:white_chocolate_slab"
+  ]
+}

@@ -1,2 +1,5 @@
-// 1.20.1	2024-03-14T19:59:28.3097966	Create: Switzerland/Tags for minecraft:block
+// 1.20.1	2025-03-04T19:25:08.1178942	Create: Switzerland/Tags for minecraft:block
+d24a9615a3a2284d21c0b95d15cb4883cfe09df9 data\minecraft\tags\blocks\mineable\axe.json
 623813a2a6c4197541a2d30bcab2130d22d6e57d data\minecraft\tags\blocks\logs_that_burn.json
+fdf9b6191bbd795258b71d1fe2e8106c2c256ada data\minecraft\tags\blocks\mineable\hoe.json
+99cb78903b76e1160fd33e636956a52fe0b5dd1d data\minecraft\tags\blocks\mineable\pickaxe.json
