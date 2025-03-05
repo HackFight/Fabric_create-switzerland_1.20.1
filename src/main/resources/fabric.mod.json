@@ -24,9 +24,6 @@
       "net.hackfight.createswitzerland.CreateSwitzerlandDataGenerator"
     ]
   },
-  "mixins": [
-    "create-switzerland.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
     "fabric-api": ">=${fabric_api_version}",
