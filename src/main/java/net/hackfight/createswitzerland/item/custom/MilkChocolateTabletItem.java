@@ -20,7 +20,6 @@ public class MilkChocolateTabletItem extends Item {
 
 
 	public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
-
 		if (!world.isClient) {
 
 			Iterator<StatusEffectInstance> iterator = user.getActiveStatusEffects().values().iterator();
@@ -28,18 +27,16 @@ public class MilkChocolateTabletItem extends Item {
 			ArrayList<StatusEffectInstance> effects = new ArrayList<StatusEffectInstance>();
 
 			while (iterator.hasNext()) {
-
 				effects.add(iterator.next());
-
 			}
 
-			for (int i = 0; i < effects.size(); i++) {
-				StatusEffect effect = effects.get(i).getEffectType();
+            for (StatusEffectInstance statusEffectInstance : effects) {
+                StatusEffect effect = statusEffectInstance.getEffectType();
 
-				if (!effect.isBeneficial()) {
-					user.removeStatusEffect(effect);
-				}
-			}
+                if (!effect.isBeneficial()) {
+                    user.removeStatusEffect(effect);
+                }
+            }
 		}
 
 		return super.finishUsing(stack, world, user);
