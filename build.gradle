@@ -48,7 +48,7 @@ dependencies {
 	modImplementation("net.fabricmc.fabric-api:fabric-api:${fabric_api_version}")
 
 	// Create - dependencies are added transitively
-	modImplementation("com.simibubi.create:create-fabric-${minecraft_version}:${create_version}")
+	// modImplementation("com.simibubi.create:create-fabric-${minecraft_version}:${create_version}")
 
 	// Development QOL
 	modLocalRuntime("maven.modrinth:lazydfu:${lazydfu_version}")
@@ -77,7 +77,7 @@ processResources {
 	properties.put("version", version)
 	properties.put("fabric_loader_version", fabric_loader_version)
 	properties.put("fabric_api_version", fabric_api_version)
-	properties.put("create_version", create_version)
+	// properties.put("create_version", create_version)
 	properties.put("minecraft_version", minecraft_version)
 
 	properties.forEach((k, v) -> inputs.property(k, v))
