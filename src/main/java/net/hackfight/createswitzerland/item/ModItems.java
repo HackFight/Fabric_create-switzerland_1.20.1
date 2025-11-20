@@ -7,6 +7,7 @@ import net.hackfight.createswitzerland.CreateSwitzerland;
 import net.hackfight.createswitzerland.item.custom.MilkChocolateTabletItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -30,6 +31,7 @@ public class ModItems {
 	public static final Item DARK_CHOCOLATE_TABLET = registerItem("dark_chocolate_tablet", new Item(new FabricItemSettings().food(ModFoodComponents.DARK_CHOCOLATE_TABLET)));
 	public static final Item WHITE_CHOCOLATE_TABLET = registerItem("white_chocolate_tablet", new Item(new FabricItemSettings().food(ModFoodComponents.WHITE_CHOCOLATE_TABLET)));
 
+	public static final Item HOT_COCOA = registerItem("hot_cocoa", new HotCocoa(new FabricItemSettings().recipeRemainder(Items.GLASS_BOTTLE)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries)
     {
@@ -45,6 +47,8 @@ public class ModItems {
 		entries.add(WHITE_CHOCOLATE_GLAZED_BERRIES);
 		entries.add(DARK_CHOCOLATE_TABLET);
 		entries.add(WHITE_CHOCOLATE_TABLET);
+
+		entries.add(HOT_COCOA);
 	}
 
     private static Item registerItem(String name, Item item){
